@@ -106,12 +106,16 @@ const ordersArray = [
   },
 ];
 
+/////// task 1
+
 interface MostPopularProductInterface {
   id: number;
   count: number;
 }
 
 const getMostPopularProduct = (): MostPopularProductInterface => {};
+
+/////// task 2
 
 interface CustomerAndProductsInterface {
   customerName: string;
@@ -120,6 +124,8 @@ interface CustomerAndProductsInterface {
 
 const getAllProductsNamesAndCustomerName =
   (): CustomerAndProductsInterface[] => {};
+
+/////// task 3
 
 interface ProductWithTotalPrice {
   productName: string;
